@@ -1,0 +1,180 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1f1f23;
+    text-rendering: optimizeLegibility;
+    background-image: url('../Images/stars.svg');
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+}
+
+/********HEADER************************************************/
+.logo {
+    height: 55px;
+    margin-top: 10px;
+}
+
+.logoDiv{
+    text-align: center;
+    width: 55px;
+}
+
+.menu  { 
+    background-color: #18181b;
+    box-shadow: 0px 0px 5px #060607; 
+    height: 75px; 
+
+}
+
+.credentialsContainer { 
+    padding: 17px;
+    justify-content: center;
+    display: block;
+    margin: 0px;
+}
+
+.signinButton {
+    border-radius: 20px; 
+    font-family: 'Quicksand', sans-serif; 
+    float: right;
+    margin: 10px;
+    border-style: none; 
+    margin-top: 2px;
+    
+    
+}
+
+.signupButton {
+    background-color: #e1ecff;
+    border-radius: 20px; 
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin: 2px;
+    border-style: none;
+    color: #18181b;
+    
+    ;
+}
+
+
+/* BODY HOMEPAGE ----------------------------------------------------------*/ 
+
+
+.astronautaDiv{
+    position: relative;
+    width: 40vw;
+    min-width: 300px;
+    z-index: 2;
+    margin: auto;
+    display: block;
+    animation-name: flutuando;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes flutuando {
+
+    0% {top:0; left: 10px;}
+    50% {top:10px; left: 10px;}
+    100% {top:0; left: 10px;}
+
+}
+
+.oneXtwo {
+    margin: 0px;
+    text-align: center;
+}
+
+.titulo {
+    color: #e1ecff;
+    font-size: calc(4vw + 20px);
+    margin-top: 2vh;
+    font-weight: 900;
+
+}
+
+
+p {
+    color: #e1ecff;
+    text-align: center;
+    font-weight: 600;
+    padding-right: 5vw;
+    font-size: calc(2vw+20px);
+}
+
+
+.Itunes {
+    width: 170px;
+    min-width: 100px;
+    margin: 10px;
+}
+
+.Google {
+    width: 182px;
+    min-width: 100px;
+    margin: 10px;
+}
+
+.appDiv{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+.features {
+    color: #e1ecff;
+    display: inline-flexbox;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.languagesIcon{
+    -webkit-filter: drop-shadow(5px 5px 5px #201f1f);
+    filter: drop-shadow(5px 5px 5px #070606);
+    width: 4vw;
+    min-width: 30px;
+    margin: 5px;
+}
+
+.languagesDiv {
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+.iconBox{
+    padding: 0px;
+    margin: 0px;
+}
+
+.p{
+    color: #e1ecff;
+    display: block;
+
+}
+
+.oneXtwo{
+    margin:10px;
+    z-index: 1;
+}
+
+.stars{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    width: 400px;
+}
+
+.connect{
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 200px;
+}
